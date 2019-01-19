@@ -1,0 +1,14 @@
+/* ====================== Restaurant Listing ====================== */
+
+#restaurants-list li {
+  width: 45%;
+}
+
+#restaurants-list li:not(:first-child) {
+  margin-top: 0;
+}
+
+/* style all restaurants except the first two */
+#restaurants-list li:not(:nth-child(-n + 2)) {
+  margin-top: 15px;
+}
