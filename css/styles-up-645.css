@@ -1,0 +1,38 @@
+/* ====================== Restaurant Details ====================== */
+
+#breadcrumb {
+  width: calc(50% - 60px);
+}
+
+.inside header {
+  z-index: 1;
+}
+
+.inside #maincontent {
+  max-width: none;
+}
+
+.inside #map-container {
+  background: blue none repeat scroll 0 0;
+  width: 100%;
+  height: 300px;
+  margin-top: 0;
+  position: fixed;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  top: 80px;
+}
+
+.inside #footer {
+  width: calc(50% - 50px);
+}
+
+#restaurant-container,
+#reviews-container {
+  width: calc(50% - 40px);
+}
+
+#restaurant-container {
+  margin-top: 125px;
+}
