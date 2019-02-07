@@ -341,9 +341,6 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  /* padding: 0 20px 20px; */
-  position: relative;
-  /* width: 85%; */
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
