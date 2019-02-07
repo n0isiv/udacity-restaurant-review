@@ -44,13 +44,16 @@
       </nav>
     </header>
 
-    <main id="maincontent">
-      <section id="map-container"><div id="map"></div></section>
+    <main id="maincontent" role="main">
+      <section id="map-container">
+        <div id="map"></div>
+      </section>
       <section>
         <div class="filter-options">
           <h2>Filter Results</h2>
           <div>
             <select
+              aria-label="Choose a neighborhood"
               id="neighborhoods-select"
               name="neighborhoods"
               onchange="updateRestaurants()"
@@ -58,6 +61,7 @@
               <option value="all">All Neighborhoods</option>
             </select>
             <select
+              aria-label="Choose a cuisine"
               id="cuisines-select"
               name="cuisines"
               onchange="updateRestaurants()"
