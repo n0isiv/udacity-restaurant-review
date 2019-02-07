@@ -12,6 +12,7 @@ self.addEventListener("install", function(ev) {
         "/js/dbhelper.js",
         "/js/main.js",
         "/js/restaurant_info.js",
+        "/sw.js",
         "/",
         "/restaurant.html?id=1",
         "/restaurant.html?id=2",
